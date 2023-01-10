@@ -21,7 +21,7 @@ function Goal(props) {
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<Goal isGoal={true} />);
 */
-
+//-----------------------------------------------------------------
 /*
 
  function Car(props){
@@ -39,6 +39,7 @@ root.render(<Goal isGoal={true} />);
  const root = ReactDOM.createRoot(document.getElementById('root'));
  root.render(<Garage />)
  */
+//-----------------------------------------------------------------
 
 
 //Logical && Operator
@@ -64,6 +65,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<Garage cars ={cars} />);
 
 */
+//-----------------------------------------------------------------
 
 //Ternary Operator
 //Another way to conditionally render elements is by using a ternary operator.
@@ -89,6 +91,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<Goal isGoal={true} />);
 
 */
+//-----------------------------------------------------------------
+
 /*
 function Car(props){
   return <li>I am a {props.brand}</li>
@@ -116,7 +120,7 @@ root.render(<Garage/>)
 */
 
 
-//---------------------React Forms--------------
+//---------------------React Forms--------------------------
 /*
 function MyForm(){
 const [name,setName] = useState("");
@@ -138,7 +142,7 @@ const [name,setName] = useState("");
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<MyForm />);
 */
-
+//-----------------------------------------------------------------
 /*
 function MyForm(){
   const [name, setName] = useState("");
@@ -163,6 +167,7 @@ function MyForm(){
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<MyForm />);
 */
+//-----------------------------------------------------------------
 
 /*
 function formatName(user) {
@@ -192,6 +197,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(element);
 
 */
+//-----------------------------------------------------------------
+
 /*
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -207,6 +214,7 @@ function tick(){
 setInterval(tick, 100);
 
 */
+//-----------------------------------------------------------------
 
 /*
 function formatDate(date) {
@@ -251,6 +259,7 @@ root.render(
     author={comment.author} />
 );
 */
+//-----------------------------------------------------------------
 
 /*
 //Extracting Components
@@ -310,6 +319,9 @@ root.render(
 );
 
 */
+
+//-----------------------------------------------------------------
+
 /*
 //Responding to events 
 
@@ -329,6 +341,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<MyButton />)
 
 */
+//-----------------------------------------------------------------
 
 //Updating the screen 
 /*
@@ -349,6 +362,9 @@ function MyButton(){
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<MyButton />)
 */
+//-----------------------------------------------------------------
+
+
 /*
 
 export default function MyApp(){
@@ -378,6 +394,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<MyApp />)
 
 */
+//-----------------------------------------------------------------
 
 export default function MyApp(){
   const[count, setCount] = useState(0);
